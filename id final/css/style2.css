@@ -1,0 +1,223 @@
+
+.logo img{
+    width: 110px;
+    height: 80px;
+}
+.header{
+    position: absolute;
+    width: 100%;
+}
+.nav{
+    position: relative;
+
+}
+.nav ul{
+    list-style: none;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 40px;
+    color: rgb(24, 24, 24);
+    font-family: Soul-good;
+
+    
+}
+.sub-menu{
+    width: 160px;
+    padding: 10px 0px;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 1px;
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 0.5s;
+    background-color: rgb(243, 132, 4);
+}
+.small{
+    width: 100px !important;
+}
+.sub-menu ul{
+    list-style: none;
+    align-items: center;
+}
+.sub-menu li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 30px;
+    margin: 0 15px !important;
+    letter-spacing: 0 !important;
+}
+.nav li:hover .sub-menu{
+    visibility: visible;
+    opacity: 1;
+}
+.nav li:hover{
+    border-bottom: 2px solid rgba(255, 255, 255, 0) ;
+}
+.main{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.intro{
+    background-image: url("../IMG/harley_davidson_PNG71.png"), url("../IMG/background-01.jpg");
+    background-position: bottom center, top;
+    height: 100vh;
+    background-size: 1200px, 1100px;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+}
+.intro-content{
+    height: 200px;
+    width: 350px;
+}
+.gallery{
+    margin-top: 25px;
+    padding: 15px 50px;
+    height: 50px;
+    width: 150px;
+    border: 0.5px solid rgb(243, 132, 4);
+    border-radius: 40px;
+    position: relative;
+}
+.go-to-gallery{
+    padding: 15px 35px;
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    background-color: rgb(243, 132, 4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 0.5s;
+    vertical-align: middle;
+}
+.go-to-gallery a{
+    text-decoration: none;
+    color: white;
+}
+.gallery:hover .go-to-gallery{
+    visibility: visible;
+    opacity: 1;
+}
+.cover{
+    background: url(/IMG/sporters.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+}
+.section-1{
+    height: 400px;
+    margin: 40px 0;
+}
+
+
+.right-icons{
+    padding-top: 80px;
+}
+.right-icons ul{
+    list-style: none;
+}
+.right-icons li{
+    margin: 30px 0px;
+}
+.right-icons ul li a{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.863);
+}
+.feature{
+    height: 400px;
+}
+.feature img{
+    overflow: hidden;
+    height: 100%;
+}
+.sec-1-right{
+    width: 400px;
+    padding-top: 20px;
+}
+.sec-1-right a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.sec-1-right a:hover{
+    border-bottom: 1px solid black ;
+    width: 160px;
+    color: rgb(243, 132, 4);
+}
+.cover-2{
+    background: url("../IMG/nighters-road.png");
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    padding-top: 20px;
+}
+.part-1{
+    margin: 40px 0;
+}
+.box-1{
+    
+    height: 272px;
+    margin: 40px 0;
+    position: relative;
+}
+.feature-1 img{
+    width: 100%;
+    overflow: hidden;
+}
+.content-1{
+    width: 100%;
+    height: 0;
+    background-color: rgba(243, 131, 4, 0.199);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+.content-1 p{
+    margin: 20px;
+}
+.box-1:hover .content-1{
+    height: 100%;
+}
+.custom{
+    color: white
+}
+.footer{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    border-right: 1px solid white;
+}
+.nav-2 ul{
+    list-style: none;
+}
+.nav-2 li{
+    margin: 0px 50px;
+
+}
+.nav-2 li a{
+    text-decoration: none ;
+    font-family: Soul-good;
+    font-size: 30px;
+    color: white;
+}
+.nav-2 li a:hover{
+    color: rgb(243, 132, 4);
+}
+.copyright{
+    padding: 5px;
+    height: 30px;
+    background-color: rgb(243, 132, 4);
+}
